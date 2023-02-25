@@ -173,27 +173,27 @@ namespace Task._01
             //Neticeleri bir birinden cix. Alinan cavabin ustune III ededin 7 % faizini gel
 
 
-            //Console.Write("A: ");
-            //int a = int.Parse(Console.ReadLine());
-            //if (a >= 1000 & a <= 9999)
+            Console.Write("A: ");
+            int a = int.Parse(Console.ReadLine());
+            if (a >= 1000 & a <= 9999)
 
-            //Console.Write("B: ");
-            //int b = int.Parse(Console.ReadLine());
-            //if (b >= 1000 & b <= 9999)
+                Console.Write("B: ");
+            int b = int.Parse(Console.ReadLine());
+            if (b >= 1000 & b <= 9999)
 
-            //Console.Write("C: ");
-            //int c = int.Parse(Console.ReadLine());
-            //if (c >= 1000 & c <= 9999)
-            //{
+                Console.Write("C: ");
+            int c = int.Parse(Console.ReadLine());
+            if (c >= 1000 & c <= 9999)
+            {
 
-            //}
-            //double x = a / 100;
-            //double y = (b * 2) / 100;
-            //double z = (c * 3) / 100;
-            //double result = (x - y - z) + (c * 7) / 100;
+            }
+            double x = a / 10;
+            double y = (b * 2) / 100;
+            double z = (c * 3) / 100;
+            double result = (x - y - z) + (c * 7) / 100;
 
 
-            //Console.WriteLine($"Cavab: {result}");
+            Console.WriteLine($"Cavab: {result}");
             #endregion
 
             #region Task 11
